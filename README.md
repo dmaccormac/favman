@@ -1,5 +1,7 @@
 # Favman - Customize bookmark icons
 
+## Description
+
 Easily create HTML bookmark files with custom icons.
 
 ## Usage
@@ -16,5 +18,6 @@ The redirect timeout setting can be adjusted here:
 <meta http-equiv=""refresh"" content=""5;url={url}"">
 ```
 
-
+# Requirements
+[.NET 8.0 Framework](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
