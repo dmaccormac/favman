@@ -4,6 +4,7 @@ Easily create HTML bookmark files with custom icons.
 
 ## Usage
 Provide a title, URL and icon file and the program will generate a HTML file.
+
 Output files are saved to the `%APPDATA%\Favman\Bookmarks` directory.
 
 The icon file will be copied to the output directory and referenced in the HTML file to be used as the bookmark icon.
