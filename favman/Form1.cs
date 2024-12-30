@@ -27,7 +27,7 @@ namespace favman
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name = textBoxName.Text;
+            string name = textBoxTitle.Text;
             string url = textBoxURL.Text;
             string icon = textBoxIcon.Text;
 
@@ -62,11 +62,28 @@ namespace favman
             System.IO.File.Copy(icon, iconname);
 
             //show success message
-            MessageBox.Show("Shortcut created successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Bookmark created successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            if (checkBoxOpen.Checked)
+            {
+                Process.Start(new ProcessStartInfo(filename) { UseShellExecute = true });
+            }
+
 
 
         }
 
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = "https://www.github.com/dmaccormac/favman";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
 
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = System.Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Favman\\Bookmarks";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+
+        }
     }
 }
