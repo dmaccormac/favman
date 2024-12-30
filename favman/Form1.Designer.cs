@@ -171,7 +171,7 @@
             MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Favman 0.3";
+            Text = "Favman 0.3.2";
             ResumeLayout(false);
             PerformLayout();
         }

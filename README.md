@@ -1,10 +1,10 @@
-# Favman - Easily create HTML bookmark files with custom icons.
+# Favman - Create HTML bookmark files with custom icons.
 
 
 ## Description
 
 In many browsers, it is not possible to set custom icons for bookmarks. If the website does not provide a favicon, then a generic icon is used. 
-Favman allows you to create HTML bookmark files with custom icons. This solution is intended as a workaround that is independent of the browser.
+Favman allows you to easily create HTML bookmark files with custom icons. This solution is intended as a workaround that is independent of the browser.
 
 The application is written in C# and uses Windows Forms for the GUI. It is a single executable file and does not require installation.
 
@@ -34,9 +34,11 @@ The redirect timeout setting can be adjusted here:
 ```
 
 # Requirements
+
 [.NET 8.0 Framework](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-# Credits
+# References
+
 [Icons](https://www.iconarchive.com/show/danish-royalty-free-icons-by-jonas-rask/color-icon.html)
 
 [Discussion](https://connect.mozilla.org/t5/ideas/be-able-to-change-custom-icons-for-bookmarks/idi-p/5886)
